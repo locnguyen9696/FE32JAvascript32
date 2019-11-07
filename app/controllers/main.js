@@ -1,4 +1,8 @@
 var nguoiDungService = new NguoiDungService();
+
+function themTestGit() {
+    console.log("Them nguoi dung");
+};
 getListUser();
 
 getEle("btnThemNguoiDung").addEventListener("click", function () {
